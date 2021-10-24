@@ -1,5 +1,6 @@
 # MechaCar_Statistical_Analysis
 ## Overview 
+  In this project I aim to perform statistical analysis of MechaCar data (a hypothetical car from a hypothetical car manufacturer: AutosRUs') utilizing R and generating summaries of the different data points uncovered. 
   
 ## Results
   ### Linear Regression to Predict MPG
