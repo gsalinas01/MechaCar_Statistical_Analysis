@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 ## Overview 
-  In this project I aim to perform statistical analysis of MechaCar data (a hypothetical car from a hypothetical car manufacturer: AutosRUs') utilizing R and generating summaries of the different data points uncovered. 
+  In this project I aim to perform statistical analysis of MechaCar data (a hypothetical car prototype from a hypothetical car manufacturer: AutosRUs') utilizing R and generating summaries of the different data points uncovered. 
   
 ## Results
   ### Linear Regression to Predict MPG
@@ -28,3 +28,13 @@
 
 
 ## Study Design: MechaCar vs Competition
+Designing a statistical study to compare the performance of the MechaCar vehicle prototype against the performance of vehicles from other manufacturers:
+  * Choosing a metric to test: 
+    * When deciding on a metric for testing, it is important to contemplate what the user experience will be. Because my own experience with vehicles has always centered on highway fuel efficiency as a prominent factor of consideration due to my commute to work, it would be beneficial to design a test to examine this data point.    
+  * What would the null hypothesis or alt hypothesis be for comparing the MechaCar highway mpg to competing vehicles?
+    * Null: There is no statistical difference between MechaCar prototypes average highway mpg and the competing vehicle average highway mpg
+    * Ha: There is a statistical difference between the MechaCar prototypes average highway mpg and the competing vehicle average highway mpg
+  * What statistical test would you use to test the hypothesis? And why?
+    * The most appropriate test to perform in this scenario is a two-sample t-Test because we would be determining whether the means of the two samples (MechaCar vs competition) are statistically different. 
+  * What data is needed to run the statistical test?
+    * The data needed is highway mpg data from MechaCar prototypes and hightway mpg data from competing vehicles.
